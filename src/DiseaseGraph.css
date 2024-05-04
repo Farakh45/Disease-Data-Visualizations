@@ -1,0 +1,28 @@
+/* src/DiseaseGraph.css */
+.disease-graph {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    text-align: center;      /* Align text in the center */
+    padding: 20px;
+  }
+  
+  .graph-svg {
+    border: 1px solid #ddd; /* Border for visual definition */
+    border-radius: 10px;   /* Rounded corners for smoother look */
+    background-color: white; /* White background for contrast */
+  }
+  
+  .bar {
+    transition: fill 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    display: none; /* Hidden by default, shown on hover */
+  }
+  

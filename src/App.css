@@ -1,0 +1,11 @@
+.apph{
+    background-clip: text; /* Allow gradient effect within text */
+    -webkit-background-clip: text; /* Chrome, Safari compatibility */
+    -webkit-text-fill-color: transparent; /* Chrome, Safari compatibility */
+    background-image: linear-gradient(
+      to right,
+      #2563eb,
+      #06b6d4
+    ); 
+    font-size: 60px;
+}
