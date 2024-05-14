@@ -1052,7 +1052,7 @@ app.get('/api/jokes',(req,res)=>{
     res.send(jokes);
 })
 
-const port=process.env.Port || 3000;
+const port=process.env.Port || 5000;
 
 app.listen(port,()=>{
     console.log(`server is running on port ${port}`);
