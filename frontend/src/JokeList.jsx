@@ -122,7 +122,7 @@ const DynamicGraph = () => {
             display: true,
             top: event.pageY - 10,
             left: event.pageX + 10,
-            content: `Random Value: ${d.count}`,
+            content: `Value: ${d.count}`,
           });
         })
         .on('mouseout', () => setTooltip({ display: false, content: '' }));
