@@ -13,6 +13,9 @@ RUN npm install
 # Copy the rest of the backend code
 COPY . .
 
+# Set execute permission for concurrently
+RUN chmod +x ./node_modules/.bin/concurrently
+
 # Expose the port your backend app runs on
 EXPOSE 3000
 

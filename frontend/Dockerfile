@@ -12,6 +12,9 @@ RUN npm install
 # Copy the rest of the frontend code
 COPY . .
 
+# Set execute permission for concurrently
+RUN chmod +x ./node_modules/.bin/concurrently
+
 # Expose the port your frontend app runs on (if needed)
 EXPOSE 3000
 
