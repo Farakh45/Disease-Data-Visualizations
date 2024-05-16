@@ -1,0 +1,87 @@
+/* jokeList.css */
+
+/* Center-aligns the heading */
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the select dropdown */
+select {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+select:hover {
+  border-color: #888;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  text-align: center;
+}
+
+/* Center-aligns the container */
+div {
+  text-align: center;
+}
+
+/* Styling for the SVG */
+svg {
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+
+/* Styling for the bars in the SVG */
+.bar {
+  transition: fill 0.3s;
+ 
+}
+
+.bar:hover {
+  fill: #007bff; /* Change color on hover */
+}
+
+/* Styling for smaller headings */
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.chart-description {
+  font-family: Arial, sans-serif; /* Or any preferred font family */
+  font-size: 16px; /* Default font size */
+  line-height: 1.5; /* Spacing between lines */
+  color: #333; /* Soft black color for text */
+  padding: 15px; /* Padding around the text */
+  background-color: #f9f9f9; /* Light background for contrast */
+  border: 1px solid #ddd; /* Light border for separation */
+  border-radius: 5px; /* Rounded corners for a softer look */
+  margin-top: 20px; /* Space above the chart description */
+}
+
+.chart-description h3 {
+  font-size: 30px; /* Font size for the header */
+  font-weight: bold; /* Bold text for emphasis */
+  margin-bottom: 10px; /* Spacing below the header */
+}
+
+.chart-description ul {
+  padding-left: 20px; /* Indentation for list items */
+  list-style-type: none; /* Removes list item markers */
+}
+
+.chart-description li {
+  margin-bottom: 5px; /* Space between list items */
+}
+
