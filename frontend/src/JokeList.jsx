@@ -127,7 +127,7 @@ const DynamicGraph = () => {
         })
         .on('mouseout', () => setTooltip({ display: false, content: '' }));
     }
-  }, [selectedDisease, diseaseNames]);
+  }, [selectedDisease, diseaseNames], [jokes.length]);
 
   return (
     <div>
