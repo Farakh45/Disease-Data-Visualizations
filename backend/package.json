@@ -10,8 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-  "cors": "^2.8.5",
-  "express": "^4.19.2",
-  "concurrently": "^6.2.1"
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
