@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "frontend": "cd frontend &&  npm start",
-    "backend": "cd backend && npm start",
-    "start": "node_modules/.bin/concurrently \"npm run frontend\" \"npm run backend\""
+    "frontend": "cd frontend && npx cross-env PORT=3001 react-scripts start",
+  "backend": "cd backend && npm start",
+  "start": "concurrently \"npm run frontend\" \"npm run backend\""
+    
   },
   "keywords": [],
   "author": "",
