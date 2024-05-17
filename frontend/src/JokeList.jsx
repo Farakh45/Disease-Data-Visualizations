@@ -16,7 +16,7 @@ const DynamicGraph = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/jokes');
+        const response = await axios.get('https://glorious-fortnight-pvjvgrpxwq73r7w5-5000.app.github.dev/api/jokes');
         setJokes(response.data);
 
         const diseases = response.data.flatMap((joke) =>
